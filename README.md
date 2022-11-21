@@ -1,9 +1,10 @@
 # Covid-Terminal-View
-[recording_20221121-210440.webm](https://user-images.githubusercontent.com/24934998/203150032-fcdaff4b-3087-4272-894a-6157f5c8e25c.webm)
 
-View coronavirus cases, deaths and recovereys from your terminal with one "covid" command.
+View coronavirus cases, deaths and recovereys from your terminal with one "covid" command. 
 
-#Installation commands:
+
+![IMG_8915(1)](https://user-images.githubusercontent.com/24934998/203151256-18ccacf4-b928-418b-9fee-3ace068f5c98.jpg)
+# Installation commands:
 
 sudo pip3 install -r requirements.txt
 
