@@ -1,6 +1,6 @@
 # Covid-Terminal-View
 
-View coronavirus cases, deaths and recovereys from your terminal with one "covid" command. 
+View coronavirus cases, deaths and recoveries from your terminal with one "covid" command. 
 
 
 ![IMG_8915(1)](https://user-images.githubusercontent.com/24934998/203151256-18ccacf4-b928-418b-9fee-3ace068f5c98.jpg)
