@@ -1,16 +1,34 @@
-# Covid-Terminal-View
-
-View coronavirus cases, deaths and recoveries from your terminal with one "covid" command. 
-
+# COVID Terminal View
 
 ![IMG_8915(1)](https://user-images.githubusercontent.com/24934998/203151256-18ccacf4-b928-418b-9fee-3ace068f5c98.jpg)
-# Installation commands:
 
-sudo pip3 install -r requirements.txt
+Covid-Terminal-View is a Python script that allows you to view the current COVID-19 cases, recovered, and death numbers in your terminal with a simple "covid" command, making it a convenient and easy-to-use tool for tracking the global pandemic. The script employs web-scraping with the Beautiful Soup module to extract the information from the [Worldometers website](https://www.worldometers.info/coronavirus/#countries) and presents the data in an easily understandable, color-coded format.
 
+## Installation
+
+To install Covid-Terminal-View, follow these steps:
+
+1. Clone the repository and change the directory.
+```
+git clone https://github.com/finnfassnacht/Covid-Terminal-View.git 
+cd Covid-Terminal-View
+```
+2. Install the required dependencies with pip3:
+```
+pip3 install -r requirements.txt
+```
+
+3. Execute the install.sh bash-script:
+```
 sudo bash install.sh
+```
+This will add the covid script to your /usr/bin directory, which requires administrative permissions. Using sudo grants the necessary permissions to execute the script and add the covid command to your system.
 
-After this you are good to GO!
+## Usage
 
-The command option will only work on Linux/Unix system.
-But only the Python file will work on Windows system.
+To view the current COVID-19 cases, simply type the following command in your terminal:
+
+```
+covid
+```
+This will display the total cases, recovered and dead numbers in color-coded form.
