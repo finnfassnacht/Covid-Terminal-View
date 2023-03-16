@@ -1,7 +1,5 @@
 # COVID Terminal View
 
-![IMG_8915(1)](https://user-images.githubusercontent.com/24934998/203151256-18ccacf4-b928-418b-9fee-3ace068f5c98.jpg)
-
 Covid-Terminal-View is a Python script that allows you to view the current COVID-19 cases, recovered, and death numbers in your terminal with a simple "covid" command, making it a convenient and easy-to-use tool for tracking the global pandemic. The script employs web-scraping with the Beautiful Soup module to extract the information from the [Worldometers website](https://www.worldometers.info/coronavirus/#countries) and presents the data in an easily understandable, color-coded format.
 
 ## Installation
